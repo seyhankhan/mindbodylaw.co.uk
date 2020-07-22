@@ -1,4 +1,4 @@
-# [Mind Body Law](mindbodylaw.com)
+# [Mind Body Law](https://www.mindbodylaw.co.uk)
 
 ## Authors
 

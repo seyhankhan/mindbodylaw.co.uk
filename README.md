@@ -1,1 +1,1 @@
-# Mind Body Law
+# (Mind Body Law)[mindbodylaw.com]

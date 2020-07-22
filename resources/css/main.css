@@ -1,0 +1,33 @@
+/* ########################################################################### */
+
+                        /*  MAIN CSS FOR ALL PAGES  */
+
+/* ########################################################################### */
+
+/* --------------------------------------------------------------------------- */
+                                  /*FONTS */
+/* --------------------------------------------------------------------------- */
+
+/* BACKUP FONTS FOR NON-MAC USERS*/
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  src: url('../fonts/NunitoSans-Light.ttf');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  src: url('../fonts/NunitoSans-Bold.ttf');
+}
+
+
+/* --------------------------------------------------------------------------- */
+                        /* STOP HIGHLIGHTING TEXT */
+/* --------------------------------------------------------------------------- */
+
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}

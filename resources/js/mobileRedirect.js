@@ -12,5 +12,5 @@ isMobile = toMatch.some((toMatchItem) => {
 });
 
 if (isMobile) {
-  window.open('/error', '_self');
+  window.open('/error.html', '_self');
 }

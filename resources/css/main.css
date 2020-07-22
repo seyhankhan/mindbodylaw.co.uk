@@ -8,7 +8,6 @@
                                   /*FONTS */
 /* --------------------------------------------------------------------------- */
 
-/* BACKUP FONTS FOR NON-MAC USERS*/
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
@@ -19,7 +18,6 @@
   font-weight: 700;
   src: url('../fonts/NunitoSans-Bold.ttf');
 }
-
 
 /* --------------------------------------------------------------------------- */
                         /* STOP HIGHLIGHTING TEXT */

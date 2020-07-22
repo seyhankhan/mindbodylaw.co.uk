@@ -52,20 +52,23 @@
   font-weight: 700;
   src: url('../fonts/NunitoSans-Bold.ttf');
 }
+
 @font-face {
   font-family: 'Lustria';
   font-weight: 400;
   src: url('../fonts/Lustria-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Reenie Beanie';
   font-weight: 400;
   src: url('../fonts/ReenieBeanie-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Shimes One';
   font-weight: 400;
-  src: url('../fonts/ShimesOne_PERSONAL.ttf');
+  src: url('../fonts/ShimesOne.ttf');
 }
 
 /* PRIMARY FONT SETTINGS*/

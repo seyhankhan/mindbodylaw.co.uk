@@ -1,1 +1,45 @@
 @import "main.css";
+
+#mind-body {
+  font-size: 4.1em;
+  letter-spacing: 0.07em;
+  color: #333333;
+}
+
+#law {
+  font-family: 'Shimes One';
+  font-size: 5.5em;
+  color: #333333;
+  margin-left: 10px;
+}
+
+#mind-body-law{
+  display: inline-flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 590px;
+}
+
+#smudge {
+  width: 280px;
+  position: absolute;
+  z-index: -1;
+  left: 320px;
+  transform: rotate(-10deg);
+  bottom: -10px;
+}
+
+#rubber-shavings {
+  width: 230px;
+}
+
+#pencil {
+  width: 250px;
+}
+
+#rubber {
+  width: 200px;
+}

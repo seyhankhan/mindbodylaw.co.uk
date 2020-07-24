@@ -1,0 +1,9 @@
+@import "main.css";
+
+body {
+  margin: 50px;
+}
+
+.row {
+  margin-left: 50px;
+}

@@ -82,15 +82,11 @@
 }
 
 #about-me-info {
-  font-size: 2em;
-  color: rgba(47, 47, 47, 0.85);
   text-align: right;
   margin-right: 80px;
 }
 
 #services-pricing-info {
-  font-size: 2em;
-  color: rgba(47, 47, 47, 0.85);
   margin-left: 80px;
 }
 
@@ -100,9 +96,42 @@
 }
 
 #about-me-button {
-
+  float: right;
+  margin-right: 80px;
 }
 
 #services-pricing-button {
   margin-left: 80px;
+}
+
+#pebbles {
+  height: 330px;
+  display: block;
+  margin: auto;
+}
+
+.info {
+  font-size: 2em;
+  color: rgba(47, 47, 47, 0.85);
+}
+
+#contact-info {
+  text-align: right;
+  margin-right: 80px;
+  margin-top: 50px;
+}
+
+p {
+  line-height: 2em;
+}
+
+#water {
+  width: 100vw;
+  margin-top: -300px;
+}
+
+#postit {
+  width: 400px;
+  display: block;
+  margin: auto;
 }

@@ -13,17 +13,17 @@
 
     <link rel="shortcut icon" href="resources/images/favicon.ico">
     <link rel="stylesheet" href="resources/css/index.css">
-    <!-- <script src="vendors/jquery/jquery.min.js"></script>
-    <script src="resources/js/main.js"></script> -->
     <title>Mind Body Law</title>
   </head>
 
 
   <body>
     <div id="cover">
-      <img id="rubber" src="resources/images/rubber.png">
-      <img id="pencil" src="resources/images/pencil.png">
-      <img id="rubber-shavings" src="resources/images/rubber-shavings.png">
+      <div class="unselectable">
+        <img id="rubber" src="resources/images/rubber.png">
+        <img id="pencil" src="resources/images/pencil.png">
+        <img id="rubber-shavings" src="resources/images/rubber-shavings.png">
+      </div>
 
       <div id="title-tagline">
         <div id="mind-body-law">
@@ -33,16 +33,13 @@
           <div id="law">
             LAW
           </div>
-          <img id="smudge" src="resources/images/smudge.png">
+          <img id="smudge" class="unselectable" src="resources/images/smudge.png">
         </div>
         <div id="tagline">
           LEGAL MENTORSHIP FOR CREATIVE STARTUPS AND ENTREPRENEURS
         </div>
         <div id="down-arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="84" height="84" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2f2f2f" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z"/>
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
+          <svg onclick="//scrollDown()" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="84" height="84" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2f2f2f" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="6 9 12 15 18 9" /></svg>
         </div>
       </div>
     </div>
@@ -60,6 +57,9 @@
         </div>
       </div>
     </div>
+    <!-- Scroll down arrow -->
+    <!-- <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="resources/js/main.js"></script> -->
 
   </body>
 </html>

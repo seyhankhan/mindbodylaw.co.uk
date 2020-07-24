@@ -78,6 +78,7 @@
 
 #down-arrow {
   margin-top: 50px;
+  cursor:pointer;
 }
 
 #about-me-info {

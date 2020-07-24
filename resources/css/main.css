@@ -101,3 +101,19 @@ h1 {
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;          /* Likely future */
 }
+
+/* -------------------------------------------------------------------------- */
+                        /* STOP HIGHLIGHTING TEXT */
+/* -------------------------------------------------------------------------- */
+
+.button {
+  border: solid 2px rgba(47, 47, 47, 0.2);
+  color: rgba(47, 47, 47, 0.65);
+  padding: 15px 20px;
+  font-family: Avenir, 'Nunito Sans';
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  margin-top: 30px;
+  display: inline-block;
+}

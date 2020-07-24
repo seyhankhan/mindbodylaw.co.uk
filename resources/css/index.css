@@ -83,25 +83,14 @@
 
 #about-me-info {
   text-align: right;
-  margin-right: 80px;
-}
-
-#services-pricing-info {
-  margin-left: 80px;
 }
 
 #sand {
-  margin-left: 100px;
   margin-top: -100px;
 }
 
 #about-me-button {
   float: right;
-  margin-right: 80px;
-}
-
-#services-pricing-button {
-  margin-left: 80px;
 }
 
 #pebbles {
@@ -117,7 +106,6 @@
 
 #contact-info {
   text-align: right;
-  margin-right: 80px;
   margin-top: 50px;
 }
 

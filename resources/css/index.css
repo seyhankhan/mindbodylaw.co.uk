@@ -1,5 +1,11 @@
 @import "main.css";
 
+#cover {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
 #mind-body {
   font-size: 4.1em;
   letter-spacing: 0.07em;
@@ -16,11 +22,8 @@
 #mind-body-law{
   display: inline-flex;
   flex-direction: row;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   width: 590px;
+  position: relative;
 }
 
 #smudge {
@@ -34,12 +37,45 @@
 
 #rubber-shavings {
   width: 230px;
+  position: absolute;
+  left: 60vw;
+  top: 15vh;
 }
 
 #pencil {
-  width: 250px;
+  width: 200px;
+  position: absolute;
+  transform: rotate(70deg);
+  top: 10vh;
+  left: 5vw;
 }
 
 #rubber {
-  width: 200px;
+  width: 160px;
+  position: absolute;
+  left: 80vw;
+  top: 30vh;
+}
+
+#tagline {
+  font-family: Avenir, 'Nunito Sans';
+  color: rgba(47, 47, 47, 0.65);
+  letter-spacing: 0.2em;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#title-tagline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  top: 35vh;
+}
+
+#down-arrow {
+  margin-top: 50px;
 }

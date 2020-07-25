@@ -133,13 +133,6 @@ p {
   border: solid 2px rgba(47, 47, 47, 1);
 }
 
-#postit {
-  width: 400px;
-  display: block;
-  margin: auto;
-  margin-top: 50px;
-}
-
 #postit-container {
   position: relative;
 }

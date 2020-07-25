@@ -117,6 +117,13 @@
   z-index: -1;
 }
 
+#postit {
+  width: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
 #postit-info {
   font-family: 'Reenie Beanie';
   position: absolute;

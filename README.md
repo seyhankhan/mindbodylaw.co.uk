@@ -1,6 +1,6 @@
 # [Mind Body Law](https://www.mindbodylaw.co.uk)
 
-A 3-page website advertising a client's new legal mentorship company. Includes a Calendly API to schedule phone calls.
+A 3-page website advertising a client's legal mentorship company, 'Mind Body Law'. Includes a Calendly API to schedule phone calls.
 
 ## Authors
 

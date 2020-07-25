@@ -67,7 +67,7 @@
 @font-face {
   font-family: 'Lustria';
   font-weight: 400;
-  src: url('../fonts/Lustria-RegularCompact.ttf');
+  src: url('../fonts/Lustria-Regular.ttf');
 }
 
 @font-face {
@@ -79,7 +79,7 @@
 @font-face {
   font-family: 'Shimes One';
   font-weight: 400;
-  src: url('../fonts/ShimesOneCompact.ttf');
+  src: url('../fonts/ShimesOne.ttf');
 }
 
 /* PRIMARY FONT SETTINGS*/

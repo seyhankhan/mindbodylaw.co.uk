@@ -19,7 +19,7 @@
 
   <body>
     <div id="cover">
-      <img id="rubber" src="resources/images/index/rubber.png">
+      <img id="rubber" src="resources/images/index/rubber.webp">
       <img id="pencil" src="resources/images/index/pencil.webp">
       <img id="rubber-shavings" src="resources/images/index/rubber-shavings.webp">
 
@@ -66,13 +66,13 @@
         </div>
       </div>
       <div class="col-6">
-        <img id="pebbles" src="resources/images/index/pebbles.png">
+        <img id="pebbles" src="resources/images/index/pebbles.webp">
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
-        <img id="postit" src="resources/images/index/post-it.png">
+        <img id="postit" src="resources/images/index/post-it.webp">
       </div>
       <div class="col-6">
         <div class="info" id="contact-info">
@@ -87,12 +87,9 @@
     <!-- Scroll down arrow -->
     <script src="vendors/jquery/jquery.min.js"></script>
     <script type="text/javascript">
-      // time to scroll down in milliseconds
-      const scrollDownTime = 850;
-      // how far down the page it scrolls
       scrollDownTo = (identifier) => $("html, body").animate({
-        scrollTop: $(identifier).offset().top
-      }, scrollDownTime);
+        scrollTop: $(identifier).offset().top // scrolls down to the specified element
+      }, 850); // 850 = time taken to scroll down in milliseconds
     </script>
 
   </body>

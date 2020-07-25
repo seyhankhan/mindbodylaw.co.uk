@@ -107,11 +107,14 @@
 #contact-info {
   text-align: right;
   margin-top: 50px;
+  /* For z-index to work & water img behind text */
+  position: relative;
 }
 
 #water {
   width: 100vw;
   margin-top: -300px;
+  z-index: -1;
 }
 
 #postit {

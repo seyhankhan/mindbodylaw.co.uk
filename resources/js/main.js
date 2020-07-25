@@ -12,6 +12,8 @@ scrollDown = () => $("html, body").animate({
 }, 860); // 850 = time taken to scroll down in milliseconds
 
 
+navigator.userAgent.match(/Mac/i)
+
 $(document).ready(() => {
   // Extra custom CSS for calendly button
   $(".calendly-badge-widget .calendly-badge-content").css({

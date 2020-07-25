@@ -1,5 +1,9 @@
 @import "main.css";
 
+#menuicon {
+  margin-top: 30px;
+}
+
 #plant {
   position: absolute;
   width: 430px;
@@ -21,4 +25,19 @@
 
 .category {
   padding: 10px 20px;
+}
+
+#postit-info {
+  font-family: 'Reenie Beanie';
+  position: absolute;
+  font-size: 2.8em;
+  color: rgba(47, 47, 47, 0.65);
+  left: 4vw;
+  top: 80px;
+}
+
+.category p {
+  font-family: Avenir, 'Nunito Sans';
+  font-size: 0.9em;
+  color: rgba(47, 47, 47, 1);
 }

@@ -14,7 +14,7 @@ scrollDownTo = (identifier) => $("html, body").animate({
 
 $(document).ready(() => {
   $(".calendly-badge-widget .calendly-badge-content").css({
-    'padding': '20px',
+    'padding': '15px 20px',
     'border-radius': '8px',
     'box-shadow': "rgba(47, 47, 47, 0.5) 0 2px 5px",
     'font-family': "Avenir, 'Nunito Sans', sans-serif",

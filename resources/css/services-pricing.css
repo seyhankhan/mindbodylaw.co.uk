@@ -50,5 +50,8 @@
 }
 
 #creator a {
+  font-family: 'Reenie Beanie';
+  font-size: 2em;
+  text-decoration: none;
   color: #2f2f2f;
 }

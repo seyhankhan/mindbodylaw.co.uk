@@ -19,11 +19,9 @@
 
   <body>
     <div id="cover">
-      <div class="unselectable">
-        <img id="rubber" src="resources/images/rubber.png">
-        <img id="pencil" src="resources/images/pencil.webp">
-        <img id="rubber-shavings" src="resources/images/rubber-shavings.webp">
-      </div>
+      <img id="rubber" src="resources/images/rubber.png">
+      <img id="pencil" src="resources/images/pencil.webp">
+      <img id="rubber-shavings" src="resources/images/rubber-shavings.webp">
 
       <div id="title-tagline">
         <div id="mind-body-law">
@@ -33,7 +31,7 @@
           <div id="law">
             LAW
           </div>
-          <img id="smudge" class="unselectable" src="resources/images/smudge.webp">
+          <img id="smudge" src="resources/images/smudge.webp">
         </div>
         <div id="tagline">
           LEGAL MENTORSHIP FOR CREATIVE STARTUPS AND ENTREPRENEURS
@@ -46,13 +44,13 @@
 
     <div class="row">
       <div class="col-6">
-        <img id="sand" class="unselectable" src="resources/images/sand-home.webp">
+        <img id="sand" src="resources/images/sand-home.webp">
       </div>
       <div class="col-6">
         <div class="info" id="about-me-info">
           I want to help entreupreuners fulfill their passions by getting their legal shit done in a way that feels super easy and fun.
         </div>
-        <div class="button"  onclick='location.href="/about-me"' id="about-me-button">
+        <div class="button" onclick='location.href="/about-me"' id="about-me-button">
           ABOUT ME
         </div>
       </div>
@@ -68,13 +66,13 @@
         </div>
       </div>
       <div class="col-6">
-        <img id="pebbles" class="unselectable" src="resources/images/pebbles.png">
+        <img id="pebbles" src="resources/images/pebbles.png">
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
-        <img id="postit" class="unselectable" src="resources/images/post-it.png">
+        <img id="postit" src="resources/images/post-it.png">
       </div>
       <div class="col-6">
         <div class="info" id="contact-info">
@@ -84,11 +82,18 @@
       </div>
     </div>
 
-    <img id="water" class="unselectable" src="resources/images/water.png">
+    <img id="water" src="resources/images/water.webp">
 
     <!-- Scroll down arrow -->
     <script src="vendors/jquery/jquery.min.js"></script>
-    <script src="resources/js/main.js"></script>
+    <script type="text/javascript">
+      // time to scroll down in milliseconds
+      const scrollDownTime = 850;
+      // how far down the page it scrolls
+      scrollDownTo = (identifier) => $("html, body").animate({
+        scrollTop: $(identifier).offset().top
+      }, scrollDownTime);
+    </script>
 
   </body>
 </html>

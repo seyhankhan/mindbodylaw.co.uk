@@ -103,7 +103,7 @@ p {
                         /* STOP HIGHLIGHTING TEXT */
 /* -------------------------------------------------------------------------- */
 
-.unselectable {
+.unselectable, img, .button {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
@@ -111,7 +111,7 @@ p {
 }
 
 /* -------------------------------------------------------------------------- */
-                        /* STOP HIGHLIGHTING TEXT */
+                                /* BUTTONS */
 /* -------------------------------------------------------------------------- */
 
 .button {

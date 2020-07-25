@@ -1,0 +1,7 @@
+@import "main.css";
+
+#plant {
+  position: absolute;
+  width: 430px;
+  right: 0;
+}

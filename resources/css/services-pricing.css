@@ -5,3 +5,20 @@
   width: 430px;
   right: 0;
 }
+
+.category h3 {
+  font-family: Avenir, 'Nunito Sans';
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  color: rgba(47, 47, 47, 0.65);
+}
+
+.category li {
+  font-family: Avenir, 'Nunito Sans';
+  font-size: 0.9em;
+  color: rgba(47, 47, 47, 1);
+}
+
+.category {
+  padding: 10px 20px;
+}

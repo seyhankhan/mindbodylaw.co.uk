@@ -41,3 +41,14 @@
   font-size: 0.9em;
   color: rgba(47, 47, 47, 1);
 }
+
+#creator {
+  font-size: 0.8em;
+  text-align:center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+#creator a {
+  color: #2f2f2f;
+}

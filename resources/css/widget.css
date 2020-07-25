@@ -116,9 +116,10 @@ body {
   font-family: Avenir, 'Nunito Sans';
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
   vertical-align: middle;
   letter-spacing: 0.1em;
-  font-size: 14px;
+  font-size: 0.8em;
   color: white;
   cursor: pointer;
 }

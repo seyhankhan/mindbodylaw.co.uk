@@ -7,8 +7,8 @@ Calendly.initBadgeWidget({
 });
 
 
-scrollDownTo = (identifier) => $("html, body").animate({
-  scrollTop: $(identifier).offset().top // scrolls down to the specified element
+scrollDown = () => $("html, body").animate({
+  scrollTop: $('#sand').offset().top // scrolls down to the specified element
 }, 860); // 850 = time taken to scroll down in milliseconds
 
 

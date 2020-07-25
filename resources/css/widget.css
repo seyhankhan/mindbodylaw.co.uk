@@ -88,7 +88,7 @@ body {
   width: 19px;
   height: 19px;
   cursor: pointer;
-  background: url(/assets/external/close-icon.svg) no-repeat;
+  background: url('https://assets.calendly.com/assets/external/close-icon.svg') no-repeat;
   background-size: contain
 }
 

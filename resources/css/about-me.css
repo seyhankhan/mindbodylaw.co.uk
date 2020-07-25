@@ -21,3 +21,15 @@ body {
   width: 180px;
   height: 20px;
 }
+
+#smoke {
+  position: absolute;
+  top: -540px;
+  left: 170px;
+  width: 200px;
+}
+
+.smoke-incense {
+  position: relative;
+  margin-top: 100px;
+}

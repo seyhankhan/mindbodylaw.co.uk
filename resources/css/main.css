@@ -56,30 +56,30 @@
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 300;
-  src: url('../fonts/NunitoSans-Light.ttf');
+  src: url('../../vendors/fonts/NunitoSans-Light.ttf');
 }
 @font-face {
   font-family: 'Nunito Sans';
   font-weight: 700;
-  src: url('../fonts/NunitoSans-Bold.ttf');
+  src: url('../../vendors/fonts/NunitoSans-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Lustria';
   font-weight: 400;
-  src: url('../fonts/Lustria-Regular.ttf');
+  src: url('../../vendors/fonts/Lustria-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Reenie Beanie';
   font-weight: 400;
-  src: url('../fonts/ReenieBeanie-Regular.ttf');
+  src: url('../../vendors/fonts/ReenieBeanie.ttf');
 }
 
 @font-face {
   font-family: 'Shimes One';
   font-weight: 400;
-  src: url('../fonts/ShimesOne.ttf');
+  src: url('../../vendors/fonts/ShimesOne.ttf');
 }
 
 /* PRIMARY FONT SETTINGS*/

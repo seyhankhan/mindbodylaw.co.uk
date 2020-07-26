@@ -12,8 +12,6 @@ scrollDown = () => $("html, body").animate({
 }, 860); // 850 = time taken to scroll down in milliseconds
 
 
-navigator.userAgent.match(/Mac/i)
-
 $(document).ready(() => {
   // Extra custom CSS for calendly button
   $(".calendly-badge-widget .calendly-badge-content").css({
@@ -38,7 +36,7 @@ $(document).ready(() => {
       $(".calendly-badge-content").css("opacity", "1")
     }
   );
-  // Customise button content
+  // Customise button's text
   $(".calendly-badge-content").html(`
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><rect x="8" y="15" width="2" height="2" /></svg>
     <br>

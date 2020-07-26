@@ -169,3 +169,7 @@ p {
   color: #2f2f2f;
   cursor: pointer;
 }
+
+.active {
+  color: #2f2f2f;
+}

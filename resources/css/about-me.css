@@ -1,5 +1,31 @@
 @import "main.css";
 
-body {
-  margin: 40px;
+.hi-haneen {
+  display: flex;
+  flex-direction: row;
+}
+
+.haneen-highlight {
+  position: relative;
+  margin-bottom: 20px;
+  display: inline;
+}
+
+#highlight {
+  position: absolute;
+  top: 80px;
+  width: 180px;
+  height: 20px;
+}
+
+#smoke {
+  position: absolute;
+  top: -540px;
+  left: 200px;
+  width: 200px;
+}
+
+.smoke-incense {
+  position: relative;
+  margin-top: 100px;
 }

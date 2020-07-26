@@ -1,16 +1,13 @@
+/* ################################ CALENDLY ################################ */
+
+
 Calendly.initBadgeWidget({
   url: 'https://calendly.com/mindbodylaw/free-consultation-call',
-  text: 'Schedule Free Call',
+  text: 'SCHEDULE FREE CALL',
   color: '#2f2f2f',
   textColor: '#ffffff',
   branding: false
 });
-
-
-scrollDown = () => $("html, body").animate({
-  scrollTop: $('#sand').offset().top // scrolls down to the specified element
-}, 860); // 850 = time taken to scroll down in milliseconds
-
 
 $(document).ready(() => {
   // Extra custom CSS for calendly button
@@ -43,3 +40,11 @@ $(document).ready(() => {
     SCHEDULE FREE CALL
   `);
 });
+
+
+/* ############################ SCROLL DOWN ARROW ########################### */
+
+
+scrollDown = () => $("html, body").animate({
+  scrollTop: $('#sand').offset().top // scrolls down to the specified element
+}, 860); // 850 = time taken to scroll down in milliseconds

@@ -1,11 +1,11 @@
 @import "main.css";
 
-.hi-haneen {
+#hi-im-haneen {
   display: flex;
   flex-direction: row;
 }
 
-.haneen-highlight {
+#haneen-highlight {
   position: relative;
   margin-bottom: 20px;
   display: inline;

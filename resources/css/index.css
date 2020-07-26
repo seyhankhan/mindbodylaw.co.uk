@@ -107,8 +107,7 @@
 #contact-info {
   text-align: right;
   margin-top: 50px;
-  /* For z-index to work & water img behind text */
-  position: relative;
+  position: relative; /* For z-index to work & water img behind text */
 }
 
 #water {

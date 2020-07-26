@@ -1,9 +1,5 @@
 @import "main.css";
 
-body {
-  margin: 40px;
-}
-
 .hi-haneen {
   display: flex;
   flex-direction: row;
@@ -25,7 +21,7 @@ body {
 #smoke {
   position: absolute;
   top: -540px;
-  left: 170px;
+  left: 200px;
   width: 200px;
 }
 

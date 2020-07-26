@@ -25,7 +25,8 @@
   width: 200px;
 }
 
-.smoke-incense {
+#smoke-incense {
   position: relative;
   margin-top: 100px;
+  z-index: -1;
 }

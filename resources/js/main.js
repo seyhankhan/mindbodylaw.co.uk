@@ -1,3 +1,7 @@
+/* Website made by Seyhan Van Khan and Alizeh Khan */
+/* github.com/seyhanvankhan */
+/* July 2020 */
+
 /* ################################ CALENDLY ################################ */
 
 

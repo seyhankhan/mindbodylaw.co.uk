@@ -1,3 +1,7 @@
+/* Website made by Seyhan Van Khan and Alizeh Khan */
+/* github.com/seyhanvankhan */
+/* July 2020 */
+
 /* ########################################################################## */
 
                         /*  MAIN CSS FOR ALL PAGES  */
@@ -108,6 +112,10 @@ p {
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;          /* Likely future */
+}
+
+img {
+  pointer-events: none;
 }
 
 /* -------------------------------------------------------------------------- */

@@ -1,5 +1,6 @@
 <!-- Website made by Seyhan Van Khan and Alizeh Khan -->
 <!-- github.com/seyhanvankhan -->
+<!-- July 2020 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -20,9 +21,18 @@
 
   <body>
     <div id="cover">
-      <img id="rubber" src="resources/images/index/rubber.webp">
-      <img id="pencil" src="resources/images/index/pencil.webp">
-      <img id="rubber-shavings" src="resources/images/index/rubber-shavings.webp">
+      <picture>
+        <source       srcset="resources/images/index/rubber.webp" type="image/webp">
+        <img id="rubber" src="resources/images/index/rubber.png">
+      </picture>
+      <picture>
+        <source       srcset="resources/images/index/pencil.webp" type="image/webp">
+        <img id="pencil" src="resources/images/index/pencil.png">
+      </picture>
+      <picture>
+        <source                srcset="resources/images/index/rubber-shavings.webp" type="image/webp">
+        <img id="rubber-shavings" src="resources/images/index/rubber-shavings.png">
+      </picture>
 
       <div id="title-tagline">
         <div id="mind-body-law">
@@ -32,7 +42,10 @@
           <div id="law">
             LAW
           </div>
-          <img id="smudge" src="resources/images/index/smudge.webp">
+          <picture>
+            <source       srcset="resources/images/index/smudge.webp" type="image/webp">
+            <img id="smudge" src="resources/images/index/smudge.png">
+          </picture>
         </div>
         <div id="tagline">
           LEGAL MENTORSHIP FOR CREATIVE STARTUPS AND ENTREPRENEURS
@@ -45,15 +58,20 @@
 
     <div class="row">
       <div class="col-6">
-        <img id="sand" src="resources/images/index/sand-home.webp">
+        <picture>
+          <source     srcset="resources/images/index/sand-home.webp" type="image/webp">
+          <img id="sand" src="resources/images/index/sand-home.png">
+        </picture>
       </div>
       <div class="col-6">
         <div class="info" id="about-me-info">
-          I want to help entrepreneurs fulfill their passions by getting their legal work done in a way that feels super easy and fun.
+          I want to help entrepreuners fulfill their passions by getting their legal work done in a way that feels super easy and fun.
         </div>
-        <div class="button" onclick='location.href="/about-me"' id="about-me-button">
-          ABOUT ME
-        </div>
+        <a href="/about-me">
+          <div class="button" id="about-me-button">
+            ABOUT ME
+          </div>
+        </a>
       </div>
     </div>
 
@@ -62,12 +80,17 @@
         <div class="info" id="services-pricing-info">
           Find out what legal gaps I can plug in for your business.
         </div>
-        <div class="button" onclick='location.href="/services-pricing"' id="services-pricing-button">
-          SERVICES & PRICING
-        </div>
+        <a href="/services-pricing">
+          <div class="button" id="services-pricing-button">
+            SERVICES & PRICING
+          </div>
+        </a>
       </div>
       <div class="col-6">
-        <img id="pebbles" src="resources/images/index/pebbles.webp">
+        <picture>
+          <source        srcset="resources/images/index/pebbles.webp" type="image/webp">
+          <img id="pebbles" src="resources/images/index/pebbles.png">
+        </picture>
       </div>
     </div>
 
@@ -77,7 +100,10 @@
           <div id="postit-info">
             Call Haneen <br> +44 7497 118939
           </div>
-          <img id="postit" src="resources/images/post-it.webp">
+          <picture>
+            <source       srcset="resources/images/post-it.webp" type="image/webp">
+            <img id="postit" src="resources/images/post-it.png">
+          </picture>
         </div>
       </div>
       <div class="col-6">
@@ -88,7 +114,10 @@
       </div>
     </div>
 
-    <img id="water" src="resources/images/index/water.webp">
+    <picture>
+      <source      srcset="resources/images/index/water.webp" type="image/webp">
+      <img id="water" src="resources/images/index/water.png">
+    </picture>
 
     <!-- Calendly badge widget -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">

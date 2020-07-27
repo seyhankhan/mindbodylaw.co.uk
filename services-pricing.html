@@ -1,5 +1,6 @@
 <!-- Website made by Seyhan Van Khan and Alizeh Khan -->
 <!-- github.com/seyhanvankhan -->
+<!-- July 2020 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -19,7 +20,10 @@
 
 
   <body>
-    <img id="plant" src="resources/images/services-pricings/plant.webp">
+    <picture>
+      <source      srcset="resources/images/services-pricings/plant.webp" type="image/webp">
+      <img id="plant" src="resources/images/services-pricings/plant.png">
+    </picture>
     <div class="col-8 unselectable" id="nav-bar">
       <ul>
         <a href="/"><li>HOME</li></a>
@@ -120,7 +124,10 @@
           <div id="postit-info">
             Call Haneen <br> +44 7497 118939
           </div>
-          <img id="postit" src="resources/images/post-it.webp">
+          <picture>
+            <source       srcset="resources/images/post-it.webp" type="image/webp">
+            <img id="postit" src="resources/images/post-it.png">
+          </picture>
         </div>
       </div>
       <div class="col-8">
@@ -138,10 +145,13 @@
             MY DAY RATE IS £500/HOUR.</h3>
           <p>If it takes me less time, I will charge on a time-basis.</p>
         </div>
+
         <div class="col-8">
-          <div class="button" onclick='location.href="/about-me"' id="about-me-button">
-            ABOUT ME
-          </div>
+          <a href="/about-me">
+            <div class="button" id="about-me-button">
+              ABOUT ME
+            </div>
+          </a>
         </div>
       </div>
     </div>

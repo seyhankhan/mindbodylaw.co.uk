@@ -10,6 +10,12 @@
   right: 0;
 }
 
+@media screen and (max-width: 600px) {
+  #plant {
+    display: none;
+  }
+}
+
 .category h3 {
   font-family: Avenir, 'Nunito Sans';
   font-size: 0.9em;

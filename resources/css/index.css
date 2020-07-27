@@ -61,6 +61,12 @@
   top: 30vh;
 }
 
+@media screen and (max-width: 600px) {
+  #rubber {
+    display: none;
+  }
+}
+
 #tagline {
   font-family: Avenir, 'Nunito Sans';
   color: rgba(47, 47, 47, 0.65);
@@ -91,6 +97,7 @@
 
 #sand {
   margin-top: -100px;
+  max-width: 100%;
 }
 
 #about-me-button {
@@ -98,7 +105,7 @@
 }
 
 #pebbles {
-  height: 330px;
+  max-height: 330px;
   display: block;
   margin: auto;
 }
@@ -115,13 +122,13 @@
 }
 
 #water {
-  width: 100vw;
+  max-width: 100vw;
   margin-top: -300px;
   z-index: -1;
 }
 
 #postit {
-  width: 400px;
+  max-width: 400px;
   display: block;
   margin: auto;
   margin-top: 50px;
@@ -132,6 +139,6 @@
   position: absolute;
   font-size: 3em;
   color: rgba(47, 47, 47, 0.65);
-  left: 12vw;
+  left: 10vw;
   top: 80px;
 }

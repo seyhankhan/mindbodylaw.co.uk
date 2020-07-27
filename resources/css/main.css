@@ -165,12 +165,20 @@ img {
   color: rgba(47, 47, 47, 0.3);
   font-weight: bold;
   margin-left: 50px;
-  letter-spacing: 0.05em
+  letter-spacing: 0.05em;
+  text-decoration: none;
 }
 
 #nav-bar li {
   display: inline-block;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #nav-bar li {
+    display: block;
+    text-decoration: none;
+  }
 }
 
 #nav-bar li:hover {

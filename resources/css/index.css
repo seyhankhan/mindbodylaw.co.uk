@@ -41,6 +41,8 @@
 @media screen and (max-width: 600px) {
   #mind-body-law {
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -56,7 +58,7 @@
 @media screen and (max-width: 600px) {
   #smudge {
     width: 180px;
-    left: 280px;
+    left: 220px;
   }
 }
 

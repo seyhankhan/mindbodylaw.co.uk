@@ -36,3 +36,7 @@
     display: none;
   }
 }
+
+a {
+  color: rgba(47, 47, 47, 1);
+}

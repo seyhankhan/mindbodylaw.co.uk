@@ -176,8 +176,9 @@
 #postit-info {
   font-family: 'Reenie Beanie';
   position: absolute;
-  font-size: 3em;
+  font-size: 2.5em;
   color: rgba(47, 47, 47, 0.65);
   left: 10vw;
-  top: 80px;
+  top: 70px;
+  line-height: 1.2em;
 }

@@ -4,8 +4,7 @@ if (window.location.href.includes("about-me")) {
   fetch("https://sheets.googleapis.com/v4/spreadsheets/11QSfvcXfhWIu_hA_BH-x-gcuWdOdATex3jhVFnDLCGs/values/About%20Me?key=AIzaSyAxFtgYFyStTch-G_kQHGI1lqKaUYg8p3Y")
     .then(resp => resp.json()) // Transform the google sheet api html into json
     .then(data => {
-      var descrip = document.getElementById("about-me-description");
-      data['values'].forEach(para => descrip.innerHTML += (para.length ? para[0] : '') + '<br>');
+      data['values'].forEach(para => document.getElementById("about-me-description").innerHTML += (para.length ? para[0] : '') + '<br>');
     })
 }
 

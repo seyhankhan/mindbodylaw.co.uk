@@ -154,7 +154,7 @@
   color: rgba(47, 47, 47, 0.85);
 }
 
-#contact-info {
+.contact-info {
   text-align: right;
   margin-top: 50px;
   position: relative; /* For z-index to work & water img behind text */

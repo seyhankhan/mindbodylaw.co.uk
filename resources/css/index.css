@@ -16,6 +16,12 @@
   color: #333333;
 }
 
+@media screen and (max-width: 600px) {
+  #mind-body {
+    font-size: 3em;
+  }
+}
+
 #law {
   font-family: 'Shimes One';
   font-size: 5.5em;
@@ -23,11 +29,23 @@
   margin-left: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  #law {
+    font-size: 4em;
+  }
+}
+
 #mind-body-law{
   display: inline-flex;
   flex-direction: row;
   width: 590px;
   position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  #mind-body-law {
+    text-align: center;
+  }
 }
 
 #smudge {
@@ -39,11 +57,24 @@
   bottom: -10px;
 }
 
+@media screen and (max-width: 600px) {
+  #smudge {
+    width: 180px;
+    left: 280px;
+  }
+}
+
 #rubber-shavings {
   width: 230px;
   position: absolute;
   left: 60vw;
   top: 15vh;
+}
+
+@media screen and (max-width: 600px) {
+  #rubber-shavings {
+    display: none;
+  }
 }
 
 #pencil {
@@ -52,6 +83,12 @@
   transform: rotate(70deg);
   top: 10vh;
   left: 5vw;
+}
+
+@media screen and (max-width: 600px) {
+  #pencil {
+    width: 150px;
+  }
 }
 
 #rubber {
@@ -74,6 +111,12 @@
   font-size: 1.1em;
   text-align: center;
   margin-top: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  #tagline {
+    font-size: 0.8em;
+  }
 }
 
 #title-tagline {

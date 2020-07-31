@@ -46,6 +46,16 @@
   }
 }
 
+#mind-body br {
+  display: none;
+}
+
+/* @media screen and (max-width: 600px) {
+  #mind-body br {
+    display: block;
+  }
+} */
+
 #smudge {
   width: 280px;
   position: absolute;
@@ -111,12 +121,6 @@
   margin-top: 80px;
 }
 
-@media screen and (max-width: 600px) {
-  #tagline {
-    font-size: 0.8em;
-  }
-}
-
 #title-tagline {
   display: flex;
   justify-content: space-around;
@@ -156,6 +160,12 @@
   color: rgba(47, 47, 47, 0.85);
 }
 
+@media screen and (max-width: 600px) {
+  .info {
+    text-align: left;
+  }
+}
+
 .contact-info {
   text-align: right;
   margin-top: 50px;
@@ -168,6 +178,12 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 600px) {
+  #water {
+    margin-top: -40px;
+  }
+}
+
 #postit {
   max-width: 400px;
   display: block;
@@ -175,12 +191,27 @@
   margin-top: 50px;
 }
 
+
+@media screen and (max-width: 600px) {
+  #postit {
+    width: 320px;
+  }
+}
+
 #postit-info {
   font-family: 'Reenie Beanie';
   position: absolute;
   font-size: 2.5em;
   color: rgba(47, 47, 47, 0.65);
-  left: 10vw;
+  left: 150px;
   top: 70px;
   line-height: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  #postit-info {
+    font-size: 2em;
+    left: 80px;
+    top: 50px;
+  }
 }

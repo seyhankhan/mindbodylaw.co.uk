@@ -24,6 +24,12 @@
   height: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  #highlight {
+    top: 50px;
+  }
+}
+
 #smoke {
   position: absolute;
   top: -540px;

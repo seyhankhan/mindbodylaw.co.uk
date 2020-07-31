@@ -39,7 +39,7 @@
 #postit-info {
   font-family: 'Reenie Beanie';
   position: absolute;
-  font-size: 2.2em;
+  font-size: 2em;
   color: rgba(47, 47, 47, 0.65);
   left: 60px;
   top: 70px;
@@ -56,9 +56,7 @@
 .centre {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 1.5em;
-  font-family: Lustria;
+  justify-content: space-around;
   color: rgba(47, 47, 47, 0.65);
 }
 

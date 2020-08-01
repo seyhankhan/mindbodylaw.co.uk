@@ -103,7 +103,7 @@ p {
                         /* STOP HIGHLIGHTING TEXT */
 /* -------------------------------------------------------------------------- */
 
-.unselectable, img, .button {
+.unselectable, img, .button, nav {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
@@ -155,7 +155,7 @@ img {
   color: #2f2f2f;
 }
 
-#nav-bar a {
+nav a {
   font-family: Avenir, 'Nunito Sans', sans-serif;
   font-size: 0.8em;
   color: rgba(47, 47, 47, 0.3);
@@ -165,23 +165,18 @@ img {
   text-decoration: none;
 }
 
-#nav-bar li {
+nav li {
   display: inline-block;
   margin-right: 10px;
 }
 
 @media screen and (max-width: 600px) {
-  #nav-bar li {
+  nav li {
     display: block;
     text-decoration: none;
   }
 }
 
-#nav-bar li:hover {
-  color: #2f2f2f;
-  cursor: pointer;
-}
-
-.active {
+.active, nav li:hover {
   color: #2f2f2f;
 }

@@ -189,16 +189,15 @@ nav li {
 /* -------------------------------------------------------------------------- */
 
 
-.calendly-badge-widget .calendly-badge-content {
-  padding: 15px 20px !important;
+body .calendly-badge-widget .calendly-badge-content {
+  padding: 15px 20px;
   border-radius: 8px;
-  box-shadow: rgba(47, 47, 47, 0.5) 0 2px 5px !important;
-  font-family: Avenir, 'Nunito Sans', sans-serif !important;
-  text-transform: uppercase !important;
-  vertical-align: middle !important;
-  letter-spacing: 0.1em !important;
-  font-size: 0.8em !important;
-  color: white !important;
+  box-shadow: rgba(47, 47, 47, 0.5) 0 2px 5px;
+  font-family: Avenir, 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  vertical-align: middle;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
 }
 
 .calendly-badge-widget .calendly-badge-content:hover {
@@ -212,7 +211,7 @@ nav li {
 }
 
 @media screen and (max-width: 600px) {
-  .calendly-badge-content {
-    border-radius: 50% !important
+  body .calendly-badge-widget .calendly-badge-content {
+    border-radius: 50%;
   }
 }

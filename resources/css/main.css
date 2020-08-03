@@ -205,12 +205,12 @@ nav li {
   opacity: 0.8
 }
 
-
 @media screen and (max-width: 600px) {
   #calendly-button-text {
     display: none
   }
 }
+
 @media screen and (max-width: 600px) {
   .calendly-badge-content {
     border-radius: 50% !important

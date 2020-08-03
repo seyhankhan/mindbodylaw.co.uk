@@ -3,9 +3,10 @@
   position: absolute;
   width: 430px;
   right: 0;
+  z-index: -1;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 768px) {
   #plant {
     display: none;
   }

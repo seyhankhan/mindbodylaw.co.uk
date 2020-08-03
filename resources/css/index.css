@@ -49,12 +49,6 @@
   display: none;
 }
 
-/* @media screen and (max-width: 600px) {
-  #mind-body br {
-    display: block;
-  }
-} */
-
 #smudge {
   width: 280px;
   position: absolute;
@@ -139,9 +133,21 @@
   text-align: right;
 }
 
+@media screen and (max-width: 600px) {
+  #about-me-info {
+    text-align: left;
+  }
+}
+
 #sand {
   margin-top: -100px;
   max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  #sand {
+    display: none;
+  }
 }
 
 #about-me-button {
@@ -160,8 +166,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .info {
-    text-align: left;
+  .contact-info {
+    text-align: left !important;
+    margin-bottom: 15vh;
   }
 }
 
@@ -179,7 +186,7 @@
 
 @media screen and (max-width: 600px) {
   #water {
-    margin-top: -40px;
+    display: none;
   }
 }
 
@@ -211,7 +218,7 @@
 @media screen and (max-width: 600px) {
   #postit-info {
     font-size: 2em;
-    left: 80px;
+    left: 10vw;
     top: 50px;
   }
 }

@@ -191,7 +191,7 @@ nav li {
 
 .calendly-badge-widget .calendly-badge-content {
   padding: 15px 20px !important;
-  border-radius: 8px !important;
+  border-radius: 8px;
   box-shadow: rgba(47, 47, 47, 0.5) 0 2px 5px !important;
   font-family: Avenir, 'Nunito Sans', sans-serif !important;
   text-transform: uppercase !important;

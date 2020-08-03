@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="title" property="og:title" content="Mind Body Law | About Me">
+    <meta name="title" property="og:title" content="About Me | Mind Body Law">
     <meta property="og:type" content="website">
     <meta name="image" property="og:image" content="resources/images/favicon.ico">
     <meta name="description" property="og:description" content="Affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.">
@@ -13,8 +13,13 @@
     <link rel="shortcut icon" href="resources/images/favicon.ico">
     <link rel="stylesheet" href="resources/css/main.css" >
     <link rel="stylesheet" href="resources/css/about-me.css">
-    <script async src="resources/js/googleSheetsAPI.js"></script>
-    <title>Mind Body Law | About Me</title>
+    <title>About Me | Mind Body Law</title>
+    <script> // Google Sheets API
+      fetch("https://sheets.googleapis.com/v4/spreadsheets/11QSfvcXfhWIu_hA_BH-x-gcuWdOdATex3jhVFnDLCGs/values/About%20Me?key=AIzaSyAxFtgYFyStTch-G_kQHGI1lqKaUYg8p3Y")
+        .then(resp => resp.json()).then(data => {
+          data['values'].forEach(para => document.getElementById("about-me-description").innerHTML += (para.length ? para[0] : '') + '<br>');
+        })
+    </script>
   </head>
 
 
@@ -87,6 +92,22 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js"></script>
     <script src="vendors/jquery/jquery.min.js"></script>
-    <script src="resources/js/calendlyAPI.js"></script>
+    <script>
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/mindbodylaw/free-consultation-call',
+        text: 'SCHEDULE FREE CALL',
+        color: '#2f2f2f',
+        textColor: '#ffffff',
+        branding: false
+      });
+      window.onload = () => {
+        document.getElementsByClassName("calendly-badge-content")[0].innerHTML = `
+          <svg class="icon icon-tabler icon-tabler-calendar-event" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><rect x="8" y="15" width="2" height="2" /></svg>
+          <br>
+          <div id="calendly-button-text">
+            SCHEDULE FREE CALL
+          </div>`
+      }
+    </script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-// WARNING: NOT USED - SEE EACH HTML PAGE
+// WARNING: SEE EACH HTML PAGE FOR INLINE SCRIPT
 // /* ################################ ABOUT ME ################################ */
 //
 // if (window.location.href.includes("about-me")) {

@@ -17,7 +17,7 @@
     <script> // Google Sheets API
       fetch("https://sheets.googleapis.com/v4/spreadsheets/11QSfvcXfhWIu_hA_BH-x-gcuWdOdATex3jhVFnDLCGs/values/About%20Me?key=AIzaSyAxFtgYFyStTch-G_kQHGI1lqKaUYg8p3Y")
         .then(resp => resp.json()).then(data => {
-          data['values'].forEach(para => document.getElementById("about-me-description").innerHTML += (para.length ? para[0] : '') + '<br>');
+          data['values'].forEach(para => document.getElementById("about-me-description").innerHTML += (para.length ? para[0] : '') + '<br>')
         })
     </script>
   </head>

@@ -8,3 +8,17 @@
   background-image: url("../images/about-me/highlight.png");
   background-size: cover;
 }
+
+@media(max-width: 900px) {
+  .about-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #incense {
+    display: none;
+  }
+}
+
+#highlighter {
+  max-width: 100%;
+}

@@ -1,6 +1,5 @@
 #services-section {
   width: 60%;
-
 }
 
 #plant {
@@ -14,4 +13,12 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 80px
+}
+
+#services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  font-size: 14px;
+  line-height: 150%;
 }

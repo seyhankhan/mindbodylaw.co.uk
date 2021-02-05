@@ -1,4 +1,4 @@
-#post-it {
+#postit {
   background-image: url("../images/post-it.png");
   background-size: cover;
   background-position: center;
@@ -9,3 +9,16 @@
   padding: 48px;
   width: 300px;
 }
+
+#postit-services {
+  background-image: url("../images/post-it.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  font-family: 'Reenie Beanie';
+  font-size: 36px;
+  line-height: 140%;
+  padding: 40px;
+  height: 200px;
+}
+

@@ -2,6 +2,10 @@
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   padding-right: 24px;
+  color: #71717A;
+}
+
+.navbar li:hover {
   color: #3F3F46;
 }
 

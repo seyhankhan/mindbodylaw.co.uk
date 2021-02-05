@@ -1,0 +1,10 @@
+.navbar li {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding-right: 24px;
+  color: #3F3F46;
+}
+
+.navbar {
+    padding: 32px 0;
+}

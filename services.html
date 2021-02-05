@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta name="title" property="og:title" content="Services & Pricing | Mind Body Law">
+    <meta name="image" property="og:image" content="https://mindbodylaw.co.uk/resources/images/favicon.png">
+    <meta name="description" property="og:description" content="Affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.">
+    <meta name="author" content="Haneen Khan, Alizeh Khan & Seyhan Van Khan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/resources/images/favicon.ico">
+    <link rel="stylesheet" href="resources/stylesheets/style.css">
+    <title>Services & Pricing | Mind Body Law</title>
+    <script> // Google Sheets API
+      fetch("https://sheets.googleapis.com/v4/spreadsheets/11QSfvcXfhWIu_hA_BH-x-gcuWdOdATex3jhVFnDLCGs/values/Services%20Pricing?key=AIzaSyAxFtgYFyStTch-G_kQHGI1lqKaUYg8p3Y")
+        .then(resp => resp.json()).then(data => {
+          text = data['values'];
+          document.getElementById('title-description').innerHTML = text[0][0];
+          var i = 1;
+          [ ["IP-list",'OTHER CONTRACTS'],
+            ["OC-list", 'EMPLOYMENT / WORKERS'],
+            ["EW-list",'WEBSITE'],
+            ["W-list",'EVENTS'],
+            ["E-list",'SETTING UP YOUR COMPANY'],
+            ["SUYC-list",'SITUATIONS GONE WRONG'],
+            ["SGW-list",'END OF LIST']
+          ].forEach(title => {
+            document.getElementById(title[0]).innerHTML = '';
+            for (i++; text[i][0] !== title[1]; i++) {
+              document.getElementById(title[0]).innerHTML += '<li>' + text[i][0] + '</li>'
+            }
+          });
+          ["pricing-description", "doc-price", "doc-description", "day-rate", "day-rate-description"
+            ].forEach(id => {
+              i++;
+              document.getElementById(id).innerHTML = text[i][0]
+          });
+        })
+    </script>
+  </head>
+
+  <body>
+
+    <ul class="container navbar">
+      <a href="/"><li>Home</li></a>
+      <a href="about"><li class="active">About me</li></a>
+      <a href="services"><li>Services & Pricing</li></a>
+    </ul>
+
+    <div class="container">
+      <div id="services-section" class="text">
+        <h1>Services</h1>
+
+        <p>Not sure what you need? I have listed legal work by category in case it's helpful. Feel free to contact me for a free consultation so I can help identify what's needed, or ask me about something that isn't listed.</p>
+
+        <h3>Intellectual Proppery (IP)</h3>
+        <ul id="IP-list">
+          <li>Trademark Registration</li>
+          <li>Research on IP concerns, for example on social media content</li>
+          <li>Non-Disclosure Agreement</li>
+          <li>Cease & Desist Letter (threatening someone else using your IP)</li>
+        </ul>
+
+        <h3>Other Contracts</h3>
+        <ul id="OC-list">
+          <li>Membership terms or subscription agreement</li>
+          <li>Model waiver release forms (you need a person's consent to be photographed or videoed)</li>
+          <li>Product or service terms (i.e. terms governing purchase of your product)</li>
+          <li>Drafting a custom agreement of your choice</li>
+        </ul>
+
+        <h3>Employment / Workers</h3>
+        <ul id="EW-list">
+          <li>Customised Freelance agreement (re-workable for use with different contractors)</li>
+          <li>Employment agreement</li>
+        </ul>
+
+        <h3>Website</h3>
+        <ul id="W-list">
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+
+        <h3>Events</h3>
+        <ul id="E-list">
+          <li>Licences - food licences, alcohol licences, wedding licences, commercial licence (I can identify what's needed, and guide through the process)</li>
+          <li>Conducting a risk assessment and advising on mandatory risk mitigation and other health &amp; safety considerations (e.g. fire escapes, CCTV, minimising hazards, insurance etc)</li>
+          <li>Disclaimers to your clients to protect your liability</li>
+        </ul>
+
+        <h3>Setting up your company</h3>
+        <ul id="SUYC-list">
+          <li>A company house application (e.g. company incorporation, name change etc)</li>
+          <li>GDPR registration and advice on data privacy/handling</li>
+          <li>Advice on insurances required</li>
+        </ul>
+
+        <h3>Situations gone wrong</h3>
+        <ul id="SGW-list">
+          <li>We all have those - and if that's the case, let me know if I can help. It could be debt chasing, or if a party has broken a term of your agreement and you need a threatening letter written.</li>
+        </ul>
+      </div>
+    </div>
+
+    <img id="plant" src="resources/images/services-pricings/plant.png">
+
+
+    <div id="pricing-section" class="container">
+      <div>
+        <h1>Pricing</h1>
+        <p id="pricing-description">
+          I'm happy to provide a custom quote depending on what you require. The more you ask for, the more value. Prices includes a comprehensive one hour call for information gathering, to get an idea of your business and what legal gaps there are.  I've priced really sensitively for entrepreneurs to make this accessible, so it's considerably cheaper than solicitors. Contact me with your requirements and I’ll get back to you with a "no pressure" quote in 24 hours.
+        </p><br class="unselectable">
+          <h3>
+            <svg class="icon icon-tabler icon-tabler-file" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#2f2f2f" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /></svg>
+            <br class="unselectable">
+            <div id='doc-price'>≈ £100 - £400 PER DOCUMENT</div></h3>
+          <p id='doc-description'>Depending on the complexity.</p>
+          <h3>
+            <svg class="icon icon-tabler icon-tabler-clock" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#2f2f2f" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9" /><polyline points="12 7 12 12 15 15" /></svg>
+            <br class="unselectable">
+            <div id='day-rate'>MY DAY RATE IS £500.</div></h3>
+          <p id="day-rate-description">Whichever is most cost effective for you.</p>
+      </div>
+      <p id="post-it">Call Haneen <br> +44 7497 118939 <br> mindbodylaw@gmail.com</p>
+    </div>
+
+
+    <footer id="creator">
+      Website by &nbsp; <a target="_blank" href="https://www.linkedin.com/in/alizehkhan/">alizeh</a>
+    </footer>
+
+    <!-- Calendly badge widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script>
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/mindbodylaw/free-consultation-call',
+        text: 'Book free call',
+        color: '#3F3F46',
+        textColor: 'white',
+        branding: false
+      });
+      $(document).ready(() => {
+        document.getElementsByClassName("calendly-badge-content")[0].innerHTML = `
+          <svg class="icon icon-tabler icon-tabler-calendar-event" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><rect x="8" y="15" width="2" height="2" /></svg>
+          <br>
+          <div id="calendly-button-text">
+            Book free call
+          </div>`
+      })
+    </script>
+  </body>
+</html>

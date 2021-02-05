@@ -1,0 +1,47 @@
+#sand {
+  max-width: 100%;
+}
+
+#pebbles {
+  width: 320px;
+}
+
+.section-height {
+  min-height: 600px;
+}
+
+#home-section-water {
+  background-image: url("../images/index/water.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 100vw;
+  min-height: 600px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px
+}
+
+@media(max-width: 1100px) {
+  .grid {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #home-section-water {
+    padding-bottom: 360px;
+  }
+  .section-height {
+    min-height: 400px;
+  }
+}
+
+#contact-section-text {
+  font-size: 18px;
+  line-height: 180%;
+}

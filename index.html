@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="/resources/images/favicon.ico">
-    <link rel="stylesheet" href="resources/css/main.css" >
-    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="resources/stylesheets/style.css" >
     <title>Mind Body Law</title>
     <script> // Google Sheets API
       fetch("https://sheets.googleapis.com/v4/spreadsheets/11QSfvcXfhWIu_hA_BH-x-gcuWdOdATex3jhVFnDLCGs/values/Home?key=AIzaSyAxFtgYFyStTch-G_kQHGI1lqKaUYg8p3Y")
@@ -21,106 +20,50 @@
     </script>
   </head>
 
-
   <body>
-    <div id="cover">
-      <picture>
-        <source       srcset="resources/images/index/rubber.webp" type="image/webp">
-        <img id="rubber" src="resources/images/index/rubber.png">
-      </picture>
-      <picture>
-        <source       srcset="resources/images/index/pencil.webp" type="image/webp">
-        <img id="pencil" src="resources/images/index/pencil.png">
-      </picture>
-      <picture>
-        <source                srcset="resources/images/index/rubber-shavings.webp" type="image/webp">
-        <img id="rubber-shavings" src="resources/images/index/rubber-shavings.png">
-      </picture>
 
-      <div id="title-tagline">
-        <div id="mind-body-law">
-          <div id="mind-body">
-            Mind<br> Body
-          </div>
-          <div id="law">
-            LAW
-          </div>
-          <picture>
-            <source       srcset="resources/images/index/smudge.webp" type="image/webp">
-            <img id="smudge" src="resources/images/index/smudge.png">
-          </picture>
+    <div id="banner-grid">
+      <img id="pencil" src="resources/images/index/pencil.png">
+      <div id="banner">
+        <div id="title">
+          <h1 id="mind-body"> Mind Body </h1><span id="law">LAW</span>
+          <img id="shavings" src="resources/images/index/rubber-shavings.png">
         </div>
-        <div id="tagline">
-          LEGAL MENTORSHIP FOR CREATIVE STARTUPS AND ENTREPRENEURS
-        </div>
-        <div id="down-arrow">
-          <svg onclick="$('html,body').animate({scrollTop:$('#sand').offset().top},860)" class="icon icon-tabler icon-tabler-chevron-down" width="84" height="84" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2f2f2f" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="6 9 12 15 18 9" /></svg>
-        </div>
+        <h2 id="subtitle">Legal mentorship for creative startups & entrepreneurs</h2>
+        <svg id="down" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-down" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3F3F46" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="7 7 12 12 17 7" />
+          <polyline points="7 13 12 18 17 13" />
+        </svg>
+      </div>
+      <img id="rubber" src="resources/images/index/rubber.png">
+    </div>
+
+    <div class="container section-height grid">
+      <img id="sand" src="resources/images/index/sand.png">
+      <div>
+        <h2>I want to help entrepreneurs fulfill their passions by getting their legal work done in a way that feels effortless and fun.</h2>
+        <a href="about" class="button">About me</a>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-6">
-        <picture>
-          <source     srcset="resources/images/index/sand.webp" type="image/webp">
-          <img id="sand" src="resources/images/index/sand.png">
-        </picture>
+    <div class="container section-height grid">
+      <div>
+        <h2>Find out what legal gaps I can plug in for your business.</h2>
+        <a href="services" class="button">Services & pricing</a>
       </div>
-      <div class="col-6">
-        <div class="info" id="about-me-info">
-          I want to help entrepreneurs fulfill their passions by getting their legal work done in a way that feels effortless and fun.
-        </div>
-        <a href="about-me">
-          <div class="button" id="about-me-button">
-            ABOUT ME
-          </div>
-        </a>
-      </div>
+      <img id="pebbles" src="resources/images/index/pebbles.png">
     </div>
 
-    <div class="row">
-      <div class="col-6">
-        <div class="info" id="services-pricing-info">
-          Find out what legal gaps I can plug in for your business.
+    <div id="home-section-water">
+      <div class="container grid">
+        <p id="post-it">Call Haneen <br> +44 7497 118939 <br> mindbodylaw@gmail.com</p>
+        <div>
+          <h2>Feel free to schedule a call, Whatsapp or email me.</h2>
+          <p id="contact-section-text">For a "no pressure" quote on what legal work you require or ask for more information. Even if you can’t afford my help, I can help guide you in the right direction.</p>
         </div>
-        <a href="services-pricing">
-          <div class="button" id="services-pricing-button">
-            SERVICES & PRICING
-          </div>
-        </a>
-      </div>
-      <div class="col-6">
-        <picture>
-          <source        srcset="resources/images/index/pebbles.webp" type="image/webp">
-          <img id="pebbles" src="resources/images/index/pebbles.png">
-        </picture>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-6">
-        <div id="postit-container">
-          <address id="postit-info">
-            Call Haneen <br> +44 7497 118939 <br> mindbodylaw@gmail.com
-          </address>
-          <picture>
-            <source       srcset="resources/images/post-it.webp" type="image/webp">
-            <img id="postit" src="resources/images/post-it.png">
-          </picture>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="info contact-info" id="contact-info-title">
-          Feel free to schedule a call, Whatsapp or email me.
-        </div>
-        <p class="contact-info" id="contact-info-description">For a "no pressure" quote on what legal work you require or ask for more information. Even if you can’t afford my help, I can help guide you in the right direction.  Maybe you need to know where to go to find a template or understand what needs to be checked off when you start up.</p>
-      </div>
-    </div>
-
-    <picture>
-      <source      srcset="resources/images/index/water.webp" type="image/webp">
-      <img id="water" src="resources/images/index/water.png">
-    </picture>
 
     <!-- Calendly badge widget -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -129,9 +72,9 @@
     <script>
       Calendly.initBadgeWidget({
         url: 'https://calendly.com/mindbodylaw/free-consultation-call',
-        text: 'SCHEDULE FREE CALL',
-        color: '#2f2f2f',
-        textColor: '#ffffff',
+        text: 'Book free call',
+        color: '#3F3F46',
+        textColor: 'white',
         branding: false
       });
       $(document).ready(() => {
@@ -139,7 +82,7 @@
           <svg class="icon icon-tabler icon-tabler-calendar-event" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><rect x="8" y="15" width="2" height="2" /></svg>
           <br>
           <div id="calendly-button-text">
-            SCHEDULE FREE CALL
+            Book free call
           </div>`
       })
     </script>

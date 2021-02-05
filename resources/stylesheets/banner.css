@@ -1,0 +1,101 @@
+#banner-grid {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr 1fr;
+}
+
+#banner {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  padding-left: 60px;
+  position: relative;
+}
+
+#law {
+  font-family: 'Shimes One';
+  font-size: 96px;
+  background-image: url("../images/index/smudge.png");
+  background-size: cover;
+  display: inline-block;
+  padding: 32px 80px;
+  background-position: center;
+  margin-left: -56px;
+  z-index: -1;
+}
+
+#subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 32px;
+  color: #71717A;
+}
+
+#rubber {
+  width: 160px;
+  display: inline;
+  margin: 240px auto 0 auto;
+}
+
+#pencil {
+  display: inline;
+  margin: 120px auto 0 auto;
+  width: 200px;
+  transform: rotate(70deg);
+}
+
+#shavings {
+  position: absolute;
+  width: 230px;
+  right: -40px;
+  top: -94px;
+}
+
+#down {
+  margin-top: 24px;
+  cursor:pointer;
+}
+
+@media(max-width: 1100px) {
+  #banner-grid {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #rubber {
+    display: none;
+  }
+  #pencil {
+    display: none;
+  }
+  #pebbles {
+    display: none;
+  }
+  #sand {
+    display: none;
+  }
+}
+
+@media(max-width: 900px) {
+  #title {
+    flex-direction: column;
+  }
+  #law {
+    padding: 56px 24px;
+    margin-top: -80px;
+  }
+  #subtitle {
+    width: 80vw;
+  }
+}

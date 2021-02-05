@@ -1,0 +1,16 @@
+#services-section {
+  width: 60%;
+
+}
+
+#plant {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 440px;
+}
+
+#pricing-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta name="title" property="og:title" content="About Me | Mind Body Law">
+    <meta name="image" property="og:image" content="https://mindbodylaw.co.uk/resources/images/favicon.png">
+    <meta name="description" property="og:description" content="Affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.">
+    <meta name="author" content="Haneen Khan, Alizeh Khan & Seyhan Van Khan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/resources/images/favicon.ico">
+    <link rel="stylesheet" href="resources/stylesheets/style.css" >
+    <title>About Me | Mind Body Law</title>
+    <script> // Google Sheets API
+      fetch("https://sheets.googleapis.com/v4/spreadsheets/11QSfvcXfhWIu_hA_BH-x-gcuWdOdATex3jhVFnDLCGs/values/About%20Me?key=AIzaSyAxFtgYFyStTch-G_kQHGI1lqKaUYg8p3Y")
+        .then(resp => resp.json()).then(data => {
+          document.getElementById("about-me-description").innerHTML = '';
+          data['values'].forEach(para => document.getElementById("about-me-description").innerHTML += (para.length ? para[0] : '') + '<br>');
+        })
+    </script>
+  </head>
+
+
+  <body>
+    <ul class="container navbar">
+      <a href="/"><li>Home</li></a>
+      <a href="about"><li class="active">About me</li></a>
+      <a href="services"><li>Services & Pricing</li></a>
+    </ul>
+    <div class="container about-grid">
+      <div>
+        <h1>Hi, I'm Haneen</h1>
+        <p class="text">I sit at an interesting junction in life. I’m a lawyer turned relationship &amp; intimacy coach. I feel polarised all the time! On one hand, I’m Haneen - <span id="highlight">the studious law geek</span> with years of nerding on legal dilemmas, contracts and client negotiation. On the other hand, I’m Haneen - the crazy curly haired dancer who loves hiking, talking about relationships and teaches intimacy through embodied coaching! So I do both.<br><br> Shortly after I qualified as a solicitor in 2018, I hopped into the startup world launching sensual immersive theatre. It was then that I realised I could combine my <span id="highlight">legal ninja skills</span> for entrepreneurs who might bury their head in the sand with all things legal. Let’s face it, it can be a complicated and daunting area for most of us.<br><br>Anyway. Long story short - I decided to be my own boss and actually help people fulfilling their passions, to get their legal necessities done, in a way that feels super easy and fun! This feels far more aligned to me, because I have <span id="highlight">been in both worlds</span> and I’m mindful that lawyers are too expensive to be accessible to startups.<br><br><i>*Disclaimer:</i><br><i>Although I am a qualified solicitor (you can check me on the <a href="https://www.sra.org.uk/consumers/register/person/?firstName=Haneen&amp;lastName=Khan&amp;sraNumber=632126" target="_blank">Solicitors Regulation Authority</a>), I am a non-practicing solicitor. This means I am not regulated by the SRA; I am simply guiding you as a mentor through legal matters and not acting in the capacity of a solicitor. If you need help with very complex legal matters, or you want 100% peace of mind &amp; watertight cover because the stakes are high, I am not the person for you. I am happy to recommend solicitors who could help however! Please note I only work on matters within the jurisdiction of England &amp; Wales.</i></p>
+        <img id="highlighter" src="resources/images/about-me/highlighter.png">
+      </div>
+      <div>
+        <img id="haneen" src="resources/images/about-me/haneen.png">
+        <img id="incense" src="resources/images/about-me/incense.png">
+      </div>
+    </div>
+
+    <footer id="creator">
+      Website by &nbsp; <a target="_blank" href="https://www.linkedin.com/in/alizehkhan/">alizeh</a>
+    </footer>
+
+<!-- Calendly badge widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script>
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/mindbodylaw/free-consultation-call',
+        text: 'Book free call',
+        color: '#3F3F46',
+        textColor: 'white',
+        branding: false
+      });
+      $(document).ready(() => {
+        document.getElementsByClassName("calendly-badge-content")[0].innerHTML = `
+          <svg class="icon icon-tabler icon-tabler-calendar-event" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><rect x="8" y="15" width="2" height="2" /></svg>
+          <br>
+          <div id="calendly-button-text">
+            Book free call
+          </div>`
+      })
+    </script>
+  </body>
+</html>

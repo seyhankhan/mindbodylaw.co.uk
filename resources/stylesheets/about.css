@@ -1,0 +1,10 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 120px
+}
+
+#highlight {
+  background-image: url("../images/about-me/highlight.png");
+  background-size: cover;
+}

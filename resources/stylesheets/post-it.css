@@ -1,0 +1,11 @@
+#post-it {
+  background-image: url("../images/post-it.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  font-family: 'Reenie Beanie';
+  font-size: 40px;
+  line-height: 140%;
+  padding: 48px;
+  width: 300px;
+}

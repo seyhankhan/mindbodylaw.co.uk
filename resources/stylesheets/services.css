@@ -34,3 +34,18 @@
 #pricing-section h3{
   margin: 32px 0 8px 0;
 }
+
+@media(max-width: 900px) {
+  #pricing-section {
+    display: block;
+  }
+  #services-grid {
+    display: block;
+  }
+  #plant {
+    display: none;
+  }
+  #services-section {
+    width: 100%;
+  }
+}

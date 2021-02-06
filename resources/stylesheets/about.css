@@ -17,6 +17,9 @@
   #incense {
     display: none;
   }
+  #title-about {
+    margin-top: 0;
+  }
 }
 
 #highlighter {

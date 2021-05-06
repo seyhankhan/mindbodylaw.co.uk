@@ -9,6 +9,7 @@
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
+  transition: all .1s ease-in;
 }
 
 .button:hover {

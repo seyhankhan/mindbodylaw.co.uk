@@ -84,7 +84,12 @@
           <div id="calendly-button-text">
             Book free call
           </div>`
-      })
+      });
+
+      downArrow = document.getElementById('down');
+      downArrow.onclick = () => {
+        document.querySelector(".container").scrollIntoView({ block: 'center', behavior: 'smooth' });
+      };
     </script>
   </body>
 </html>

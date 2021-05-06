@@ -10,12 +10,6 @@
 @import url(about.css);
 @import url(services.css);
 
-@font-face {
-  font-family: 'Shimes One';
-  font-weight: 400;
-  src: url('../../vendors/fonts/ShimesOne.ttf');
-}
-
 body {
   margin: 0;
   color: #3F3F46;

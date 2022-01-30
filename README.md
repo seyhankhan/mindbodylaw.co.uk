@@ -8,5 +8,5 @@ Affordable legal mentorship for startups and small businesses. Services include 
 
 ## Authors
 
-* [Seyhan Van Khan](https://github.com/seyhanvankhan)
+* [Seyhan Van Khan](https://github.com/seyhankhan)
 * [Alizeh Khan](https://github.com/alizehkhan)
